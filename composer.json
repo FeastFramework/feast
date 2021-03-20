@@ -1,0 +1,13 @@
+{
+    "name": "feast/feast",
+    "description": "Feast Framework application skeleton",
+    "type": "project",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Jeremy Presutti",
+            "email": "Jeremy@Presutti.us"
+        }
+    ],
+    "require": {}
+}
