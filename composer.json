@@ -6,8 +6,13 @@
     "authors": [
         {
             "name": "Jeremy Presutti",
-            "email": "Jeremy@Presutti.us"
+            "email": "Jeremy@Presutti.us",
+            "homepage": "https://github.com/jpresutti",
+            "role": "Developer"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.0.0",
+        "feast/framework": "~1.0"
+    }
 }
