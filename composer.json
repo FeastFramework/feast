@@ -13,6 +13,6 @@
     ],
     "require": {
         "php": "^8.0.0",
-        "feast/framework": "~1.0"
+        "feast/framework": "~1.1"
     }
 }
