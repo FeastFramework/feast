@@ -6,6 +6,7 @@
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
+ *
  *     http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
@@ -20,16 +21,9 @@ declare(strict_types=1);
 namespace Controllers;
 
 use Feast\HttpController;
-use Feast\ServiceContainer\ServiceContainer;
-use Feast\View;
 
 class IndexController extends HttpController
 {
-
-    public function __construct(View $view, ServiceContainer $di)
-    {
-        parent::__construct($di, $view);
-    }
 
     public function indexGet(): void
     {

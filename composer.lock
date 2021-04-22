@@ -1,0 +1,76 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2b64aa52351d34763c46ef3f0b923600",
+    "packages": [
+        {
+            "name": "feast/framework",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FeastFramework/framework.git",
+                "reference": "7178b929cbb091bce502478ce6334fcb6dd0ba33"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/7178b929cbb091bce502478ce6334fcb6dd0ba33",
+                "reference": "7178b929cbb091bce502478ce6334fcb6dd0ba33",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0.0"
+            },
+            "require-dev": {
+                "psalm/phar": "^4.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Feast\\": ".",
+                    "Psr\\": "Psr"
+                },
+                "files": [
+                    "DependencyInjector.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Presutti",
+                    "email": "Jeremy@Presutti.us",
+                    "homepage": "https://github.com/jpresutti",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Feast Framework",
+            "support": {
+                "issues": "https://github.com/FeastFramework/framework/issues",
+                "source": "https://github.com/FeastFramework/framework/tree/v1.3.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/jpresutti",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-04-22T00:10:04+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.0.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
