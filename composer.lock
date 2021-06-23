@@ -8,23 +8,28 @@
     "packages": [
         {
             "name": "feast/framework",
-            "version": "v1.3.0",
+            "version": "v1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FeastFramework/framework.git",
-                "reference": "7178b929cbb091bce502478ce6334fcb6dd0ba33"
+                "reference": "b4a585a3886febe8cf41dd8d34d42812f2edb287"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/7178b929cbb091bce502478ce6334fcb6dd0ba33",
-                "reference": "7178b929cbb091bce502478ce6334fcb6dd0ba33",
+                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/b4a585a3886febe8cf41dd8d34d42812f2edb287",
+                "reference": "b4a585a3886febe8cf41dd8d34d42812f2edb287",
                 "shasum": ""
             },
             "require": {
+                "ext-pdo": "*",
                 "php": "^8.0.0"
             },
             "require-dev": {
                 "psalm/phar": "^4.7"
+            },
+            "suggest": {
+                "ext-mysql": "*",
+                "ext-pdo_mysql": "*"
             },
             "type": "library",
             "autoload": {
@@ -51,7 +56,7 @@
             "description": "Feast Framework",
             "support": {
                 "issues": "https://github.com/FeastFramework/framework/issues",
-                "source": "https://github.com/FeastFramework/framework/tree/v1.3.0"
+                "source": "https://github.com/FeastFramework/framework/tree/v1.8.0"
             },
             "funding": [
                 {
@@ -59,7 +64,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-04-22T00:10:04+00:00"
+            "time": "2021-06-23T03:06:35+00:00"
         }
     ],
     "packages-dev": [],
