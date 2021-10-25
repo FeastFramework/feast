@@ -4,30 +4,32 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b64aa52351d34763c46ef3f0b923600",
+    "content-hash": "bba347e734122c251fca9574709f217b",
     "packages": [
         {
             "name": "feast/framework",
-            "version": "v1.12.0",
+            "version": "v2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FeastFramework/framework.git",
-                "reference": "cd66cfdf66b00459f903d5fc877e52555dff05bd"
+                "reference": "97bc20df703c350ca7e95dd35413583a46cf9500"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/cd66cfdf66b00459f903d5fc877e52555dff05bd",
-                "reference": "cd66cfdf66b00459f903d5fc877e52555dff05bd",
+                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/97bc20df703c350ca7e95dd35413583a46cf9500",
+                "reference": "97bc20df703c350ca7e95dd35413583a46cf9500",
                 "shasum": ""
             },
             "require": {
                 "ext-pdo": "*",
-                "php": "^8.0.0"
+                "ext-xml": "*",
+                "php": "^8.1.0"
             },
             "require-dev": {
-                "psalm/phar": "^4.7"
+                "psalm/phar": "^4.10"
             },
             "suggest": {
+                "ext-curl": "*",
                 "ext-mysql": "*",
                 "ext-pdo_mysql": "*"
             },
@@ -56,7 +58,7 @@
             "description": "Feast Framework",
             "support": {
                 "issues": "https://github.com/FeastFramework/framework/issues",
-                "source": "https://github.com/FeastFramework/framework/tree/v1.12.0"
+                "source": "https://github.com/FeastFramework/framework/tree/v2.x"
             },
             "funding": [
                 {
@@ -64,17 +66,19 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-10-24T03:27:52+00:00"
+            "time": "2021-10-25T23:15:45+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "feast/framework": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.0.0"
+        "php": "^8.1.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.1.0"
