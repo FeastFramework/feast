@@ -17,8 +17,6 @@ class JobMapper extends BaseMapper
      * @param int|string $value
      * @param bool $validate
      * @return ?Job
-     * @throws \Feast\Exception\ServerFailureException
-     * @throws \Feast\ServiceContainer\NotFoundException
      */
     public function findByPrimaryKey(int|string $value, bool $validate = false): ?Job
     {
