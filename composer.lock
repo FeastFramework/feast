@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FeastFramework/framework.git",
-                "reference": "9c6965250a6ec90f7c3b7a1d14c5a2028dd80389"
+                "reference": "3bbf4ea858c9c989bc42853d10ed1724b246df70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/9c6965250a6ec90f7c3b7a1d14c5a2028dd80389",
-                "reference": "9c6965250a6ec90f7c3b7a1d14c5a2028dd80389",
+                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/3bbf4ea858c9c989bc42853d10ed1724b246df70",
+                "reference": "3bbf4ea858c9c989bc42853d10ed1724b246df70",
                 "shasum": ""
             },
             "require": {
@@ -71,7 +71,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-11-25T19:02:46+00:00"
+            "time": "2021-11-25T19:09:19+00:00"
         }
     ],
     "packages-dev": [],
