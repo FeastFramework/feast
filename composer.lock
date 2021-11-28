@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "feast/framework",
-            "version": "v2.0.1",
+            "version": "v2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FeastFramework/framework.git",
-                "reference": "757ed4e998a79adc54549f797363f71441fa7b4d"
+                "reference": "5e1b3553a495165faeeaa70167613e2665782a5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/757ed4e998a79adc54549f797363f71441fa7b4d",
-                "reference": "757ed4e998a79adc54549f797363f71441fa7b4d",
+                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/5e1b3553a495165faeeaa70167613e2665782a5f",
+                "reference": "5e1b3553a495165faeeaa70167613e2665782a5f",
                 "shasum": ""
             },
             "require": {
@@ -63,7 +63,7 @@
             "description": "Feast Framework",
             "support": {
                 "issues": "https://github.com/FeastFramework/framework/issues",
-                "source": "https://github.com/FeastFramework/framework/tree/v2.0.1"
+                "source": "https://github.com/FeastFramework/framework/tree/v2.0.2"
             },
             "funding": [
                 {
@@ -71,7 +71,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-11-26T23:24:23+00:00"
+            "time": "2021-11-28T03:01:08+00:00"
         }
     ],
     "packages-dev": [],
