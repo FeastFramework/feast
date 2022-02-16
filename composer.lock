@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "feast/framework",
-            "version": "v1.14.0",
+            "version": "v1.14.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FeastFramework/framework.git",
-                "reference": "4711e14130dbbda2a4b38dd950dbc8c39252ef48"
+                "reference": "b5e5200ef04291586b20aaca7032b56da10cc954"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/4711e14130dbbda2a4b38dd950dbc8c39252ef48",
-                "reference": "4711e14130dbbda2a4b38dd950dbc8c39252ef48",
+                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/b5e5200ef04291586b20aaca7032b56da10cc954",
+                "reference": "b5e5200ef04291586b20aaca7032b56da10cc954",
                 "shasum": ""
             },
             "require": {
@@ -35,13 +35,13 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Feast\\": ".",
-                    "Psr\\": "Psr"
-                },
                 "files": [
                     "DependencyInjector.php"
-                ]
+                ],
+                "psr-4": {
+                    "Psr\\": "Psr",
+                    "Feast\\": "."
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -58,7 +58,7 @@
             "description": "Feast Framework",
             "support": {
                 "issues": "https://github.com/FeastFramework/framework/issues",
-                "source": "https://github.com/FeastFramework/framework/tree/v1.14.0"
+                "source": "https://github.com/FeastFramework/framework/tree/v1.14.1"
             },
             "funding": [
                 {
@@ -66,7 +66,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-12-02T03:00:21+00:00"
+            "time": "2022-02-16T01:15:21+00:00"
         }
     ],
     "packages-dev": [],
