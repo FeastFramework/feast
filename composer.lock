@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "feast/framework",
-            "version": "v2.1.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FeastFramework/framework.git",
-                "reference": "20a36020debf27458afdb3f9e948b4559353f357"
+                "reference": "98bc1af9d640a4cede2fb2a629335977821485e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/20a36020debf27458afdb3f9e948b4559353f357",
-                "reference": "20a36020debf27458afdb3f9e948b4559353f357",
+                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/98bc1af9d640a4cede2fb2a629335977821485e1",
+                "reference": "98bc1af9d640a4cede2fb2a629335977821485e1",
                 "shasum": ""
             },
             "require": {
@@ -31,7 +31,7 @@
                 "php": "^8.1.0"
             },
             "require-dev": {
-                "psalm/phar": "dev-master"
+                "psalm/phar": "^4.7"
             },
             "suggest": {
                 "ext-curl": "*",
@@ -40,13 +40,13 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Feast\\": ".",
-                    "Psr\\": "Psr"
-                },
                 "files": [
                     "DependencyInjector.php"
-                ]
+                ],
+                "psr-4": {
+                    "Psr\\": "Psr",
+                    "Feast\\": "."
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -63,7 +63,7 @@
             "description": "Feast Framework",
             "support": {
                 "issues": "https://github.com/FeastFramework/framework/issues",
-                "source": "https://github.com/FeastFramework/framework/tree/v2.1.0"
+                "source": "https://github.com/FeastFramework/framework/tree/v2.1.1"
             },
             "funding": [
                 {
@@ -71,7 +71,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-12-02T03:03:04+00:00"
+            "time": "2022-02-16T01:18:57+00:00"
         }
     ],
     "packages-dev": [],
