@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8bdc34e5186f2304eeeb0864196f32e0",
+    "content-hash": "08498e045eb6694f3f07542d52f86088",
     "packages": [
         {
             "name": "feast/framework",
-            "version": "v2.2.0",
+            "version": "v2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FeastFramework/framework.git",
-                "reference": "6684777d743909d4b6d03de8dfae2ced3e56b2a9"
+                "reference": "3677692e7bf48c0ad44296d5004f13fa08852473"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/6684777d743909d4b6d03de8dfae2ced3e56b2a9",
-                "reference": "6684777d743909d4b6d03de8dfae2ced3e56b2a9",
+                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/3677692e7bf48c0ad44296d5004f13fa08852473",
+                "reference": "3677692e7bf48c0ad44296d5004f13fa08852473",
                 "shasum": ""
             },
             "require": {
@@ -63,7 +63,7 @@
             "description": "Feast Framework",
             "support": {
                 "issues": "https://github.com/FeastFramework/framework/issues",
-                "source": "https://github.com/FeastFramework/framework/tree/v2.2.0"
+                "source": "https://github.com/FeastFramework/framework/tree/v2.3.0"
             },
             "funding": [
                 {
@@ -71,7 +71,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-04-29T00:24:30+00:00"
+            "time": "2022-05-01T23:49:32+00:00"
         }
     ],
     "packages-dev": [],
