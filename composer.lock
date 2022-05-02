@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b64aa52351d34763c46ef3f0b923600",
+    "content-hash": "75ad22e8b644b145fe8d98f4ce7b5779",
     "packages": [
         {
             "name": "feast/framework",
-            "version": "v1.14.1",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FeastFramework/framework.git",
-                "reference": "b5e5200ef04291586b20aaca7032b56da10cc954"
+                "reference": "20d3bd349a7d3ed4206c4191163b66c8a534aa91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/b5e5200ef04291586b20aaca7032b56da10cc954",
-                "reference": "b5e5200ef04291586b20aaca7032b56da10cc954",
+                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/20d3bd349a7d3ed4206c4191163b66c8a534aa91",
+                "reference": "20d3bd349a7d3ed4206c4191163b66c8a534aa91",
                 "shasum": ""
             },
             "require": {
@@ -58,7 +58,7 @@
             "description": "Feast Framework",
             "support": {
                 "issues": "https://github.com/FeastFramework/framework/issues",
-                "source": "https://github.com/FeastFramework/framework/tree/v1.14.1"
+                "source": "https://github.com/FeastFramework/framework/tree/v1.15.0"
             },
             "funding": [
                 {
@@ -66,7 +66,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-02-16T01:15:21+00:00"
+            "time": "2022-04-29T00:24:08+00:00"
         }
     ],
     "packages-dev": [],
