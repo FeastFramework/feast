@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "feast/framework",
-            "version": "v2.4.0",
+            "version": "v2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FeastFramework/framework.git",
-                "reference": "6a6d1410e80bbcb5c44fbcff5715d492dd43180e"
+                "reference": "0474076a092927fc0e3af20e47634dbeffea0939"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/6a6d1410e80bbcb5c44fbcff5715d492dd43180e",
-                "reference": "6a6d1410e80bbcb5c44fbcff5715d492dd43180e",
+                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/0474076a092927fc0e3af20e47634dbeffea0939",
+                "reference": "0474076a092927fc0e3af20e47634dbeffea0939",
                 "shasum": ""
             },
             "require": {
@@ -63,7 +63,7 @@
             "description": "Feast Framework",
             "support": {
                 "issues": "https://github.com/FeastFramework/framework/issues",
-                "source": "https://github.com/FeastFramework/framework/tree/v2.4.0"
+                "source": "https://github.com/FeastFramework/framework/tree/v2.5.0"
             },
             "funding": [
                 {
@@ -71,7 +71,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-05-03T01:05:47+00:00"
+            "time": "2022-05-04T01:26:50+00:00"
         }
     ],
     "packages-dev": [],
