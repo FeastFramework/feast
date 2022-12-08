@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a7f34f77f88124eda4260aad609330dd",
+    "content-hash": "787e0c59ebfa34f30da4b587f5621170",
     "packages": [
         {
             "name": "feast/framework",
-            "version": "v2.12.0",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FeastFramework/framework.git",
-                "reference": "23730426bc5bb87d1d4545961eeb9415581c6c16"
+                "reference": "7954973719636523b0701e8d6e6bad7cfc672719"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/23730426bc5bb87d1d4545961eeb9415581c6c16",
-                "reference": "23730426bc5bb87d1d4545961eeb9415581c6c16",
+                "url": "https://api.github.com/repos/FeastFramework/framework/zipball/7954973719636523b0701e8d6e6bad7cfc672719",
+                "reference": "7954973719636523b0701e8d6e6bad7cfc672719",
                 "shasum": ""
             },
             "require": {
@@ -28,7 +28,7 @@
                 "ext-readline": "*",
                 "ext-simplexml": "*",
                 "ext-xml": "*",
-                "php": "^8.1.0"
+                "php": "^8.2.0"
             },
             "require-dev": {
                 "psalm/phar": "^4.7"
@@ -63,7 +63,7 @@
             "description": "Feast Framework",
             "support": {
                 "issues": "https://github.com/FeastFramework/framework/issues",
-                "source": "https://github.com/FeastFramework/framework/tree/v2.12.0"
+                "source": "https://github.com/FeastFramework/framework/tree/v3.0.0"
             },
             "funding": [
                 {
@@ -71,7 +71,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-12-08T00:19:53+00:00"
+            "time": "2022-12-08T01:00:12+00:00"
         }
     ],
     "packages-dev": [],
